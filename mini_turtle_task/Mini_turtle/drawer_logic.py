@@ -1,12 +1,12 @@
 # drawer_logic.py
-posicion_x = 0  
+posicion_x = 0  # estado global del módulo
 
-def adelante(pasos): 
+def adelante(pasos): #  función para mover hacia adelante
     global posicion_x
-    print(" " * posicion_x + "-" * pasos + ">")
-    posicion_x += pasos
+    print(" " * posicion_x + "-" * pasos + ">") # Dibuja la línea hacia adelante con la flecha
+    posicion_x += pasos # Actualiza la posición horizontal
 
-def abajo(pasos):
+def abajo(pasos):  # función para mover hacia abajo
     global posicion_x
     for _ in range(pasos):
         print(" " * posicion_x + "|")
