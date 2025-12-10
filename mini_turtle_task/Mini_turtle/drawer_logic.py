@@ -11,3 +11,8 @@ def abajo(pasos):
     for _ in range(pasos):
         print(" " * posicion_x + "|")
     print(" " * posicion_x + "v")
+
+    
+def reiniciar():   
+    global posicion_x
+    posicion_x = 0
