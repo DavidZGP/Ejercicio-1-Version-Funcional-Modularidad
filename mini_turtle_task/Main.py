@@ -1,7 +1,8 @@
 # Main 
-from mini_turtle import adelante, abajo, reiniciar
+from mini_turtle import adelante, abajo, reiniciar # importa las funciones del paquete mini_turtle
 
-adelante(5)
+# Prueba de las funciones importadas
+adelante(5) 
 abajo(3)
 adelante(2)
 
